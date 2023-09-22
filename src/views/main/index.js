@@ -26,6 +26,6 @@
  * ```
  */
 
-import './index.css';
+import './index.less';
 
 console.log('👋 This message is being logged by "mian/index.js", included via webpack');
