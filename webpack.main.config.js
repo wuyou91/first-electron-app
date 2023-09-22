@@ -10,4 +10,9 @@ module.exports = {
   module: {
     rules: require('./webpack.rules'),
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'), // 将 "@" 别名映射到 "src" 目录
+    },
+  },
 };
